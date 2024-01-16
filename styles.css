@@ -1,0 +1,106 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #84E9FF; /* Set the background color to #84E9FF with 70% opacity */
+}
+
+
+header {
+    background-color: #D9D9D9;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+}
+.logo img {
+    max-width: 100%; /* Set the maximum width of the logo image to 100% */
+    height: auto;
+}
+
+#home-container img {
+    max-width: 100%; /* Set the maximum width of the image in home container to 100% */
+    height: auto;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#registration-container {
+    /* Style for the registration container */
+    margin: 20px auto; /* Center the container horizontally and apply margin */
+    max-width: 400px; /* Set a maximum width for the login container */
+    background-color: #ffffff; /* Different background color for the heading */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    background-color: #5CA8D8; /* Background color for the heading */
+    padding: 10px; /* Add padding to the heading */
+    border-radius: 8px; /* Add border-radius to the heading */
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+button {
+    background-color: #3498db; /* Set the button background color to blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: block; /* Make the button a block element */
+    margin: auto; /* Center the button */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+
+p {
+    margin-top: 10px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

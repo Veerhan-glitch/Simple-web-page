@@ -1,0 +1,43 @@
+<!-- home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Include the common styles -->
+    <link rel="stylesheet" href="home.css">   <!-- Include the home page styles -->
+    <title>Home Page</title>
+</head>
+<body style="background: #fff;">
+    <div id="header-container">
+        <script>
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('header-container').innerHTML = data);
+        </script>
+    </div>
+
+    <!-- Home page content -->
+    <div id="home-container">
+        <!-- Image on the left -->
+        <div id="image-container">
+            <img src="./img/image 1.png" height="2000" alt="Mechatronics Image">
+        </div>
+
+        <!-- Text on the right -->
+        <div id="text-container">
+            <p>
+                <h1>
+                    What is<br>
+                    Mechatronics?</h1>
+                Mechatronics is a multidisciplinary field that refers to the skill sets needed in the contemporary, advanced automated manufacturing industry. At the intersection of mechanics, electronics, and computing, mechatronics specialists create simpler, smarter systems. Mechatronics is an essential foundation for the expected growth in automation and manufacturing.
+                <br><br><a href="#"><button>read more</button></a>
+            </p>
+        </div>
+    </div>
+
+    <!-- You can include the footer or any other content here -->
+
+</body>
+</html>

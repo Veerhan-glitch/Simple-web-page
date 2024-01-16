@@ -1,0 +1,33 @@
+/* home.css */
+
+body {
+    background: #fff; /* Set the background color to white for the home page */
+}
+
+#home-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#image-container {
+    flex: 1;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+}
+
+#image-container img {
+    max-width: 100%; /* Make the image responsive within its container */
+}
+
+#text-container {
+    flex: 1;
+    max-width: 500px; /* Set the maximum width for the text container */
+}
+
+button{
+    background-color: #3300FD;
+}
